@@ -4,7 +4,7 @@ node {
     stage('Build') {
         sh 'echo Building'
         sh 'yarn add package.json'
-        sh 'yarn build'
+        sh 'yarn start'
     }
     stage('Test') {
         sh 'echo Testing'
