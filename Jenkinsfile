@@ -1,9 +1,9 @@
 #!groovy
 
 node() {
-   stage('Build printenv'){
+   stage('printenv'){
        steps {
-           sh 'printenv'
+           echo 'printenv'
        }
    }
 }
