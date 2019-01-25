@@ -3,8 +3,8 @@
 node {
     stage('Build') {
         sh 'echo Building'
-        sh 'yarn add package.json'
-        sh 'yarn build'
+        sh 'npm installpackage.json'
+        sh 'npm run build'
     }
     stage('Test') {
         sh 'echo Testing'
