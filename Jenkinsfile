@@ -3,7 +3,7 @@
 node {
     stage('Build') {
         sh 'echo Building'
-        sh 'npm installpackage.json'
+        sh 'npm install package.json'
         sh 'npm run build'
     }
     stage('Test') {
