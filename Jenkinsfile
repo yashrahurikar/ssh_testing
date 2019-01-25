@@ -1,5 +1,4 @@
-node {
-
+node() {
 stage (‘Code analyse’) {
 sh ‘echo “Run some lints”’
 }
